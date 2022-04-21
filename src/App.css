@@ -1,6 +1,38 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Varela Round;
+:root{
+  /* Font slova i font family */
+  --clr-primary: red;
+  
+  --clr-neutral: blue;
+
+  --ff-primary: sans-serif;
+  --ff-secondary: serif;
+
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+font-size: 1rem;
+min-width: 320px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+
+img {
+display: block;
+max-width: 100%;
+object-fit: cover;
 }

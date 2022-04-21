@@ -1,71 +1,122 @@
-body {
-  font-family: sans-serif;
-  background: #121212;
+
+
+.flex-container{
+  background: rgb(29, 28, 36);
+  position: absolute;
+  display: flex;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  min-width: 320px;
+  min-height: 100%;
 }
 
-.flex-container {
-  width: 100vw;
-  margin-top: 60px;
+.content-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: auto;
+  text-align: center;
+  z-index: 10;
+  width: 100%;
+}
+
+.form-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  margin: auto;
+  text-align: center;
 }
 
-.content-container {
-  width: 500px;
-  height: 350px;
+.form-inner{
+  margin: 0 1rem;
 }
 
-.form-container {
+.form-inner h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  width: 20%;
+}
+
+/* Form input e-mail and password + email and password icon */
+
+
+.subtitle input{
+  border-style: solid;
+  border-color: rgb(228, 229, 234);
+  background: rgb(29, 28, 36);
+  color: rgb(228, 234, 232);
+  border-radius: 4rem;
+  font-size: 1.3rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 350px;
-  margin-top: 5px;
-  padding-top: 20px;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background: #1f1f1f;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+  align-self: center;
+  margin: 0 auto 1rem;
+  padding: 1.5rem;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  position: relative;
 }
 
-.subtitle {
-  font-size: 11px;
-  color: rgba(177, 177, 177, 0.3);
+.subtitle input::placeholder {
+  color: #D3D3D3;
+  text-align: center;
 }
 
-h2 {
-  color: white;
-  font-size: 35px;
-  font-weight: 800;
-  font-family: sans-serif;
+#email{
+  background: url("../Signin/login-images/email.svg") no-repeat left 1.4rem center;
+  margin: 0 0 2rem;
+  margin-bottom: 1rem;
+  filter: brightness(50%);
+}
+#password{
+  background: url("../Signin/login-images/password.svg") no-repeat left 1.4rem center;
+  filter: brightness(50%);
 }
 
-input {
-  border: none;
-  border-bottom: solid rgb(143, 143, 143) 1px;
-  margin-bottom: 30px;
-  background: none;
-  color: rgba(255, 255, 255, 0.555);
-  height: 35px;
-  width: 300px;
+/* Forgot password and submit button */
+
+.forgot-pass{
+  color: rgb(228, 234, 232);
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  min-width: 100%;
 }
 
-.submit-btn {
+.submit-btn{
+  background: #fff;
+  border-style: none;
+  border-radius: 4rem;
+  color: rgb(29, 28, 36);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1.3rem;
+  width: 100%;
+}
+
+.submit-btn:hover{
+  filter: brightness(50%);
   cursor: pointer;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
-  color: rgba(255, 255, 255, 0.8);
-  width: 80px;
-  transition: all 1s;
 }
 
-.submit-btn:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: none;
+
+/* Desktop version */
+
+
+@media screen and (min-width: 1440px) {
+  .subtitle input{
+    padding: 1.2rem;
+  }
 }
+
