@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Muaythai-app/static/css/main.af3a2be6.chunk.css",
+    "main.js": "/Muaythai-app/static/js/main.19b0318a.chunk.js",
+    "main.js.map": "/Muaythai-app/static/js/main.19b0318a.chunk.js.map",
+    "runtime-main.js": "/Muaythai-app/static/js/runtime-main.a434f8f6.js",
+    "runtime-main.js.map": "/Muaythai-app/static/js/runtime-main.a434f8f6.js.map",
+    "static/js/2.e0627f9e.chunk.js": "/Muaythai-app/static/js/2.e0627f9e.chunk.js",
+    "static/js/2.e0627f9e.chunk.js.map": "/Muaythai-app/static/js/2.e0627f9e.chunk.js.map",
+    "index.html": "/Muaythai-app/index.html",
+    "static/css/main.af3a2be6.chunk.css.map": "/Muaythai-app/static/css/main.af3a2be6.chunk.css.map",
+    "static/js/2.e0627f9e.chunk.js.LICENSE.txt": "/Muaythai-app/static/js/2.e0627f9e.chunk.js.LICENSE.txt",
+    "static/media/signin.css": "/Muaythai-app/static/media/password.1887a5db.svg",
+    "static/media/img-1.jpg": "/Muaythai-app/static/media/img-1.2a9910bf.jpg",
+    "static/media/img-2.jpg": "/Muaythai-app/static/media/img-2.5c41a49a.jpg",
+    "static/media/svg-1.svg": "/Muaythai-app/static/media/svg-1.e380d9ef.svg",
+    "static/media/video.a9e259c8.mp4": "/Muaythai-app/static/media/video.a9e259c8.mp4",
+    "static/media/zgmt.baf7116a.jpg": "/Muaythai-app/static/media/zgmt.baf7116a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a434f8f6.js",
+    "static/js/2.e0627f9e.chunk.js",
+    "static/css/main.af3a2be6.chunk.css",
+    "static/js/main.19b0318a.chunk.js"
+  ]
+}
